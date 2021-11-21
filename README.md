@@ -18,6 +18,9 @@
 # Файлы
 Я буду приводить описание файлов, которые находятся в **src**.
 `DataModule.py` - класс `AudioPreProcessing` - полный пайплайн преодобработки аудио (чтение, аугментация), класс `AudioDataset` - Dataset для DataLoader
+
 `FocalLoss.py` - Лосс функция для обучения
+
 `model.py` - Основная модель
+
 `trainer.py` - Обучающий класс, для него использовал `pytorch-lightning`
